@@ -1,0 +1,31 @@
+nav {
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.89);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  .navbar {
+    max-width: 1100px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    .pages {
+      display: flex;
+      gap: 30px;
+      a {
+        font-size: 14px;
+        color: #fff;
+        &:hover {
+          color: #39cfca;
+        }
+        font-family: sans-serif;
+      }
+      .active {
+        color: #39cfca;
+      }
+    }
+  }
+}
